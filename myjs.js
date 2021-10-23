@@ -7,7 +7,7 @@ function gotComic(url) {
     xhr.open('GET',url);
     
     xhr.setRequestHeader
-    //xhr.setRequestHeader("Origin","*");
+    setRequestHeader("Access-Control-Allow-Origin","https://comicproject.herokuapp.com/");
     xhr.responseType = 'json';
     xhr.timeout = 10000;
     xhr.send();
