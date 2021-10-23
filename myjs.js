@@ -5,9 +5,13 @@ function gotComic(url) {
     console.log("fuck")
     let xhr = new XMLHttpRequest();
     xhr.open('GET',url);
-    //xhr.setRequestHeader("Access-Control-Allow-Origin",prefix);
-    xhr.send();
+    
+    xhr.setRequestHeader
+    //xhr.setRequestHeader("Origin","*");
+    xhr.responseType = 'json';
     xhr.timeout = 10000;
+    xhr.send();
+
     xhr.onload = ()=>{
         if(xhr.status != 200){
             
