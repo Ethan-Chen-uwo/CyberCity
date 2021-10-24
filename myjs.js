@@ -1,16 +1,12 @@
-var prefix = "https://xkcd.com"
-var suffix = "/info.0.json"
+var prefix = "https://proxytoxkcd.herokuapp.com/"
 //got current comic
 function gotComic(url) {
     console.log("fuck")
     let xhr = new XMLHttpRequest();
     xhr.open('GET',url);
-    
-    xhr.setRequestHeader("Access-Control-Allow-Origin","https://comicproject.herokuapp.com/");
     xhr.responseType = 'json';
     xhr.timeout = 10000;
     xhr.send();
-
     xhr.onload = ()=>{
         if(xhr.status != 200){
             
@@ -27,7 +23,8 @@ function gotComic(url) {
     
 }
 
-gotComic(prefix+suffix);
+gotComic(prefix+"comic");
+gotComic(prefix+"comic/124");
 
 //got next comic
 //got previous comicßß
