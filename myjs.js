@@ -1,4 +1,5 @@
 var prefix = "https://proxytoxkcd.herokuapp.com/"
+var suffix = "info.0.json";
 //got current comic
 function gotComic(url) {
     console.log("fuck")
@@ -23,8 +24,8 @@ function gotComic(url) {
     
 }
 
-gotComic(prefix+"comic");
-gotComic(prefix+"comic/124");
+gotComic(prefix+suffix);
+gotComic(prefix+"123/"+suffix);
 
 //got next comic
 //got previous comicßß
