@@ -1,8 +1,9 @@
 {
     "name": "cybercity",
     "version": "0.0.1",
-    "main":"server.js",
+    "main": "server.js",
     "dependencies": {
-      "express": "latest"
+        "ejs": "^3.1.6",
+        "express": "^4.17.1"
     }
-  }
+}

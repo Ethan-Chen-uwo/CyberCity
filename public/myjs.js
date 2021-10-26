@@ -1,5 +1,6 @@
 var prefix = "https://proxytoxkcd.herokuapp.com/"
 var suffix = "info.0.json";
+
 //the max number of comic (the current comic)
 var comicNum = 0;
 //the number of the comic which show on the page now
