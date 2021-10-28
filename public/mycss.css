@@ -1,0 +1,129 @@
+html,
+body {
+  background-color: lightcyan;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  min-width: 300px;
+  text-align: center;
+}
+
+div.topBlock {
+  height: fit-content;
+  margin-bottom: 10px;
+}
+div.logo {
+  font-size: xx-large;
+  color: darkorange;
+  font-family: cursive;
+  height: fit-content;
+}
+
+div.middleBlock {
+  height: fit-content;
+}
+div.buttonBar {
+  min-height: 24px;
+  margin: 1.5px;
+  padding: 0;
+}
+div.buttonBar ul {
+  margin: 0;
+  padding: 0;
+}
+
+div.buttonBar li {
+  display: inline;
+  list-style: none;
+}
+div.buttonBar a {
+  border-radius: 2px;
+  font-size: 16px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1.5px solid #333;
+  color: black;
+  background-color: lightblue;
+  font-family: "Times New Roman", Times, serif;
+}
+div.buttonBar a:hover {
+  background-color: orange;
+}
+div.content {
+  margin-top: 10px;
+}
+#safeTitle {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+#time {
+  font-size: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#comic {
+  margin-top: 10px;
+  padding: 2px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+#trans {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  margin-left: 2px;
+  border: 1.5px solid #333;
+}
+#trans span {
+  display: block;
+  margin: 0;
+  font-size: 20px;
+  border: 1.5px solid #333;
+  color: black;
+  background-color: whitesmoke;
+}
+#trans .transContent {
+  display: none;
+  text-align: left;
+}
+#trans:hover .transContent {
+  display: block;
+}
+
+.sound {
+  color: chocolate;
+  font-family: cursive;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
+}
+.subtitle {
+  font-size: 16px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
+}
+.aside {
+  color: burlywood;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin: 0;
+}
+.titleText {
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.bottomBlock {
+  font-family: Arial, Helvetica, sans-serif;
+  color: orange;
+  text-align: left;
+}

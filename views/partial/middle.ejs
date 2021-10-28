@@ -1,19 +1,21 @@
 <div class="middleBlock">
-    <div class="buttonbar">
-        <li>
-            <a href="/<%= prevNum %>/">Prev</a>
-        </li>
-        <li>
-            <a href="/random/comic">Random</a>
-        </li>
-        <li>
-            <a href="/<%= nextNum %>">Next</a>
-        </li>
+    <div class="buttonBar">
+        <ul>
+            <li>
+                <a href="/<%= prevNum %>/">&ltPrev</a>
+            </li>
+            <li>
+                <a href="/random/comic">Random</a>
+            </li>
+            <li>
+                <a href="/<%= nextNum %>">Next&gt</a>
+            </li>
+        </ul>  
     </div>
     <div id="content" class="content">
+
         <div id="safeTitle"><%= safetitle %></div>
-        <div id="time"><%= year %>.<%= month %>.<%= day %></div>
-        <div id="counter">(viewed:<%= counter %>)</div>
+        <div id="time"><%= year %>.<%= month %>.<%= day %>  (viewed:<%= counter %>)</div>
         <img id="comic" src="<%= img%>" alt="<%= alt %>">
         <div id="trans"><%= transcript %></div>
     </div>
