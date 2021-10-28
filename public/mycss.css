@@ -10,18 +10,21 @@ body {
 }
 
 div.topBlock {
+  background-color: orange;
   height: fit-content;
-  margin-bottom: 10px;
+  padding-bottom: 5px;
 }
 div.logo {
   font-size: xx-large;
-  color: darkorange;
+  color: lightcyan;
   font-family: cursive;
   height: fit-content;
 }
 
 div.middleBlock {
+  padding-top: 5px;
   height: fit-content;
+  border: 2px solid orange;
 }
 div.buttonBar {
   min-height: 24px;
@@ -38,27 +41,33 @@ div.buttonBar li {
   list-style: none;
 }
 div.buttonBar a {
+  color: lightcyan;
   border-radius: 2px;
   font-size: 16px;
   padding-left: 5px;
   padding-right: 5px;
   border: 1.5px solid #333;
-  color: black;
-  background-color: lightblue;
+  background-color: orange;
   font-family: "Times New Roman", Times, serif;
 }
 div.buttonBar a:hover {
-  background-color: orange;
+  background-color: lightblue;
+  color: orange;
 }
 div.content {
   margin-top: 10px;
 }
+div.content img {
+  max-width: 90%;
+}
 #safeTitle {
+  color: orange;
   font-size: 25px;
   font-family: "Times New Roman", Times, serif;
   font-weight: bolder;
 }
 #time {
+  color: orange;
   font-size: 10px;
   font-family: "Times New Roman", Times, serif;
 }
@@ -71,16 +80,12 @@ div.content {
 }
 #trans {
   margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 2px;
-  margin-left: 2px;
-  border: 1.5px solid #333;
+  border: 5px solid orange;
 }
 #trans span {
   display: block;
   margin: 0;
   font-size: 20px;
-  border: 1.5px solid #333;
   color: black;
   background-color: whitesmoke;
 }
